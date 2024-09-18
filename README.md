@@ -5,7 +5,7 @@ using PdfSharp.Drawing;
 using PdfSharp.Pdf;
 using ZXing;
 using ZXing.Common;
-using Extensions; //引入扩展
+using Extensions;  
  
 PdfDocument newDocument = new PdfDocument();  
 PdfPage page = newDocument.AddPage();    
